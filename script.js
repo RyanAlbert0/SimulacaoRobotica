@@ -8,13 +8,13 @@ TEMPO_BOX = document.getElementById('tempo')
 
 // Definir Imagens
 
-var Sim1 = "/Site/img/Saída Vermelha.png";
-var Sim2 = "/Site/img/Saída Rosa.png";
-var Sim3 = "/Site/img/Saída Preta.png";
-var Sim4 = "/Site/img/Saída Branca.png";
-var Sim5 = "/Site/img/Saída Azul.png";
-var Sim6 = "/Site/img/Saída Cinza.png";
-var Sim7 = "/Site/img/Saída Amarela.png";
+var Sim1 = "/img/Saída Vermelha.png";
+var Sim2 = "/img/Saída Rosa.png";
+var Sim3 = "/img/Saída Preta.png";
+var Sim4 = "/img/Saída Branca.png";
+var Sim5 = "/img/Saída Azul.png";
+var Sim6 = "/img/Saída Cinza.png";
+var Sim7 = "/img/Saída Amarela.png";
 
 
 
