@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulações para Robótica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="titulos">
+            <h1 id="mainTitle">Testes de simulações</h1>
+            <h5 id="subTitle">Todos os cálculos foram feitos baseados em: Velocidade 100% = 16</h5>
+        </div>
+        <div class="imagem">
+            <img src="/Site/img/Saída Vermelha.png" alt="" id="imagem">
+        </div>
+        <div class="valores">
+            <div class="simulacoes">
+            <select name="select" id="lista">
+                <option value="152,5" selected> Saída Vermelha</option>
+                <option value="165"> Saída Rosa</option>
+                <option value="125"> Saída Preta</option>
+                <option value="184"> Saída Branca</option>
+                <option value="101,35"> Saída Azul</option>
+                <option value="309"> Saída Cinza</option>
+                <option value="300"> Saída Amarela</option>
+            </select>
+            <input type="int" value="" readonly id="distancia" placeholder="Distância (centímetros)">
+            </div>
+            <input type="int" id="potencia" placeholder="Potência (Porcenagem)">
+            <input type="int" id="tempo" readonly placeholder="Tempo (segundos)">
+             <!-- <p id="tempo">Tempo</p> -->
+        </div>
+    </main>
+</body>
+</html>
